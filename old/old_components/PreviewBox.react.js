@@ -2,7 +2,7 @@
  * Created by claudiobartolini on 24/05/15.
  */
 var React = require('react');
-var PreviewLayer = require("./PreviewLayer.react");
+var PreviewLayer = require("./PreviewLayer.react.js");
 var objectAssign = require('react/lib/Object.assign');
 
 

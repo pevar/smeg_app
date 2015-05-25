@@ -2,8 +2,8 @@
  * Created by claudiobartolini on 24/05/15.
  */
 var React = require('react');
-var PreviewBox = require('./PreviewBox.react');
-var SelectorLayerOptionBox = require('./SelectorLayerOptionBox.react');
+var PreviewBox = require('./PreviewBox.react.js');
+var SelectorLayerOptionBox = require('./SelectorLayerOptionBox.react.js');
 var AmbientStore = require('../stores/AmbientStore');
 
 

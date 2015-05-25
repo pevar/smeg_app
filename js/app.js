@@ -10,7 +10,7 @@ var ConfiguratorWebAPIUtils = require('./utils/ConfiguratorWebAPIUtils');
 
 
 ConfiguratorStartingData.init();
-ConfiguratorWebAPIUtils.getAllNodes();
+ConfiguratorWebAPIUtils.getConfiguratorData();
 
 
 // Main

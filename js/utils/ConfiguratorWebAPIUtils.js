@@ -6,7 +6,7 @@ var ConfiguratorServerActionCreators = require('../actions/ConfiguratorServerAct
 
 module.exports = {
 
-    getAllNodes: function() {
+    getConfiguratorData: function() {
         // simulate retrieving data from a database
         var rawConfigurations = JSON.parse(localStorage.getItem('configurations'));
 

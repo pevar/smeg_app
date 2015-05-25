@@ -2,7 +2,7 @@
  * Created by claudiobartolini on 24/05/15.
  */
 var React = require('react');
-var SelectorLayerOptionItem = require('./SelectorLayerOptionItem.react');
+var SelectorLayerOptionItem = require('./SelectorLayerOptionItem.react.js');
 
 var SelectorLayerOptionList = React.createClass({
     render: function () {
