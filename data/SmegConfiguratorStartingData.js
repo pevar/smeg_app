@@ -1,10 +1,7 @@
-/**
- * Created by cbartolini on 19/05/15.
- */
 module.exports = {
     init: function () {
         localStorage.clear();
-        localStorage.setItem('data', JSON.stringify({
+        localStorage.setItem('configurations', JSON.stringify({
             ambients: [{
                 selected: {
                     layerId: 'floor',

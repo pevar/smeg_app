@@ -3,16 +3,15 @@
  */
 var React = require('react');
 var App = require('./components/App.react');
-var AmbientActionCreator = require('./actions/AmbientActionCreator');
 
-var SmegConfiguratorStartingData = require('../data/SmegConfiguratorStartingData');
-var SmegConfiguratorWebAPIUtils = require('./utils/SmegConfiguratorWebAPIUtils');
-
+var ConfiguratorStartingData = require('../data/ConfiguratorExampleData');
+var ConfiguratorWebAPIUtils = require('./utils/ConfiguratorWebAPIUtils');
 
 
-SmegConfiguratorStartingData.init();
-SmegConfiguratorWebAPIUtils.getAllNodes();
-AmbientActionCreator.selectAmbient(0)
+
+ConfiguratorStartingData.init();
+ConfiguratorWebAPIUtils.getAllNodes();
+
 
 // Main
 React.render(
